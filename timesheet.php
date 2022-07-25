@@ -49,7 +49,7 @@
                   <td><?php echo $data['projectid']; ?></td>
                   <td><?php echo $data['projectname']; ?></td>
                   <td><?php echo $data['est_del']; ?></td>
-                  <td><?php echo $data['viewt']; ?></td>
+                  <td><a  href="<?php echo $data['viewt']; ?>">View Task</a></td>
                 </tr>
                           
                 <?php

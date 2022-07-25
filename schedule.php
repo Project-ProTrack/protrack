@@ -54,10 +54,11 @@ if ($result->num_rows > 0) {
                   <td><?php echo $data['projectid']; ?></td>
                   <td><?php echo $data['projectname']; ?></td>
                   <td><?php echo $data['projecthead']; ?></td>
-                  <td><?php echo $data['viewp']; ?></td>
+                  <td><a  href="<?php echo $data['viewp']; ?>">View Project</a></td>
+                  
                 </tr>
                
-                            
+                
                 
                 <?php
   }
